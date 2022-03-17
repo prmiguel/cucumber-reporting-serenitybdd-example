@@ -1,0 +1,22 @@
+# This workflow will generate the living documentation
+# For more information see: https://github.com/prmiguel/docker-pickles
+
+name: Pickles Living Documentation
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  living-documentation:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Generate Pickles Report
+    - run: ls
+      run: docker run -ti -v /root/pickles-serenitybdd-example/report:/pickles  ghcr.io/prmiguel/docker-pickles:v3.0.1 --feature-directory=./src/test/resources/features --output-directory=./report -df=dhtml 
+    - run: ls
