@@ -1,3 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Todos belong to a user","Should not affect todos belonging to another user","SUCCESS","2022-03-17T20:31:55.429189473Z[Etc/UTC]","0.0","2.3"
-"Add different sorts of todos","Should be able to add a new todo item","SUCCESS","2022-03-17T20:31:11.327684026Z[Etc/UTC]","0.0","14.12"
+"Todos belong to a user","Should not affect todos belonging to another user","SUCCESS","2022-03-17T22:39:04.271764914Z[Etc/UTC]","0.0","2.31"
+"Add different sorts of todos","Should be able to add a new todo item","SUCCESS","2022-03-17T22:38:19.27752525Z[Etc/UTC]","0.0","13.89"

@@ -1,3 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Add new todos","Should be able to add the first todo item","SUCCESS","2022-03-17T20:31:28.262458422Z[Etc/UTC]","0.0","0.85"
-"Add new todos","Adding an item to an empty list in Cucumber","SUCCESS","2022-03-17T20:30:53.204571379Z[Etc/UTC]","0.0","0.88"
+"Add new todos","Should be able to add the first todo item","SUCCESS","2022-03-17T22:38:36.19204046Z[Etc/UTC]","0.0","0.87"
+"Add new todos","Adding an item to an empty list in Cucumber","SUCCESS","2022-03-17T22:38:00.804151842Z[Etc/UTC]","0.0","0.9"
