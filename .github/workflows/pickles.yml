@@ -17,5 +17,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Generate Pickles Report
-      run: docker run -ti -v /root/pickles-serenitybdd-example/report:/pickles  ghcr.io/prmiguel/docker-pickles:v3.0.1 --feature-directory=./src/test/resources/features --output-directory=./report -df=dhtml 
+      run: docker run -t -v /root/pickles-serenitybdd-example/report:/pickles  ghcr.io/prmiguel/docker-pickles:v3.0.1 --feature-directory=./src/test/resources/features --output-directory=./report -df=dhtml 
       
