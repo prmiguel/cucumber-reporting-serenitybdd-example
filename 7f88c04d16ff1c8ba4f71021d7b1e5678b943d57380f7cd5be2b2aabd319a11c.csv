@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Filtering todos","View only the completed items","SUCCESS","2022-03-17T19:25:04.78502029Z[Etc/UTC]","0.0","1.62"
+"Filtering todos","Viewing the items by status","SUCCESS","2022-03-17T19:25:06.524361277Z[Etc/UTC]","0.0","4.62"

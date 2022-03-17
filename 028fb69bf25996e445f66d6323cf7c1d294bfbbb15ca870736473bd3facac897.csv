@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Deleting todos","Delete an active item","SUCCESS","2022-03-17T19:24:59.565357099Z[Etc/UTC]","0.0","1.34"
+"Deleting todos","Delete all the items","SUCCESS","2022-03-17T19:25:01.021717615Z[Etc/UTC]","0.0","3.65"
