@@ -16,8 +16,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Generate Pickles Report
-      run: docker run -t -v $PWD:/pickles ghcr.io/prmiguel/docker-pickles:v3.0.1 --feature-directory=./src/test/resources/features --output-directory=./report -df=dhtml 
+    - uses: docker://ghcr.io/prmiguel/docker-pickles:v3.0.1
+      with:
+        args: >-
+          --feature-directory=./src/test/resources/features
+          --output-directory=./report
+          -df=dhtml
     - uses: actions/upload-artifact@v3
       with:
         name: pickles
