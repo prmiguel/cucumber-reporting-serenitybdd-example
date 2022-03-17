@@ -27,7 +27,11 @@ jobs:
     - name: test
       run: ls
     - name: test2
-      run: ls .reports/cucumber
+      run: ls ./reports/cucumber
+      
+    - uses: docker://ghcr.io/prmiguel/docker-cucumber-reporting:main
+      env:
+          OUTPUT_DIRECTORY: ./reports/cucumber
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.1
