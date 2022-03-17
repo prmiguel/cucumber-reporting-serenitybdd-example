@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Complete a todo","Should be able to complete a todo","SUCCESS","2022-03-17T22:38:54.062220503Z[Etc/UTC]","0.0","1.29"
-"Complete a todo","Should see the number of todos decrease when an item is completed","SUCCESS","2022-03-17T22:38:55.453637134Z[Etc/UTC]","0.0","1.18"
-"Complete a todo","Should be able to complete a todo with page objects","SUCCESS","2022-03-17T22:38:24.742571011Z[Etc/UTC]","0.0","1.32"
+"Complete a todo","Should be able to complete a todo","SUCCESS","2022-03-17T22:42:50.968591861Z[Etc/UTC]","0.0","1.19"
+"Complete a todo","Should see the number of todos decrease when an item is completed","SUCCESS","2022-03-17T22:42:52.266983705Z[Etc/UTC]","0.0","1.17"
+"Complete a todo","Should be able to complete a todo with page objects","SUCCESS","2022-03-17T22:42:19.244515696Z[Etc/UTC]","0.0","1.28"
