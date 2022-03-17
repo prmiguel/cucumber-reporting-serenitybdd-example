@@ -22,8 +22,8 @@ jobs:
       with:
         name: pickles
         path: report/
-    - uses: JamesIves/github-pages-deploy-action@v4.2.5
+    - name: Publish
+      uses: JamesIves/github-pages-deploy-action@4.1.1
       with:
         branch: gh-pages
-        folder: report
-            .
+        folder: report/
