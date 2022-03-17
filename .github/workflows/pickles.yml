@@ -23,7 +23,7 @@ jobs:
           --output-directory=./report
           -df=dhtml
     - name: Rename index.html file
-      run: mv ./report/Index.html ./report/index.html
+      run: cp ./report/Index.html ./report/index.html
     - uses: actions/upload-artifact@v3
       with:
         name: pickles
