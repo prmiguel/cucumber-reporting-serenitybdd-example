@@ -19,5 +19,5 @@ jobs:
     - name: test
       run: pwd & ls
     - name: Generate Pickles Report
-      run: docker run -t -v /root/pickles-serenitybdd-example/report:/pickles  ghcr.io/prmiguel/docker-pickles:v3.0.1 --feature-directory=./src/test/resources/features --output-directory=./report -df=dhtml 
+      run: docker run -t -v $PWD:/pickles ghcr.io/prmiguel/docker-pickles:v3.0.1 --feature-directory=./src/test/resources/features --output-directory=./report -df=dhtml 
       
