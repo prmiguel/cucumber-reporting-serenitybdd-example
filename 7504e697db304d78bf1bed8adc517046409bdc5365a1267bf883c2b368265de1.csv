@@ -1,3 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Add new todos","Adding an item to a list with other items in Cucumber","SUCCESS","2022-03-17T20:27:44.550243022Z[Etc/UTC]","0.0","1.34"
-"Add new todos","Adding items to several peoples lists in Cucumber","SUCCESS","2022-03-17T20:27:46.007129358Z[Etc/UTC]","0.0","2.68"
+"Add new todos","Adding an item to a list with other items in Cucumber","SUCCESS","2022-03-17T20:29:07.147841685Z[Etc/UTC]","0.0","1.2"
+"Add new todos","Adding items to several peoples lists in Cucumber","SUCCESS","2022-03-17T20:29:08.459017046Z[Etc/UTC]","0.0","2.32"
