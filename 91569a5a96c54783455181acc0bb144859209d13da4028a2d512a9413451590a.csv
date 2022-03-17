@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Add new todos","Adding an item to an empty list in Cucumber","SUCCESS","2022-03-17T19:30:27.933489956Z[Etc/UTC]","0.0","0.86"
-"Add new todos","Adding an item to a list with other items in Cucumber","SUCCESS","2022-03-17T19:30:28.90331193Z[Etc/UTC]","0.0","1.29"
-"Add new todos","Adding items to several peoples lists in Cucumber","SUCCESS","2022-03-17T19:30:30.304777628Z[Etc/UTC]","0.0","2.5"
+"Add new todos","Adding an item to an empty list in Cucumber","SUCCESS","2022-03-17T20:19:40.058696302Z[Etc/UTC]","0.0","0.87"
+"Add new todos","Adding an item to a list with other items in Cucumber","SUCCESS","2022-03-17T20:19:41.037033644Z[Etc/UTC]","0.0","1.29"
+"Add new todos","Adding items to several peoples lists in Cucumber","SUCCESS","2022-03-17T20:19:42.440197619Z[Etc/UTC]","0.0","2.39"
