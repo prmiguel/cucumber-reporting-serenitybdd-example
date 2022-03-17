@@ -33,8 +33,9 @@ jobs:
       
     - uses: docker://ghcr.io/prmiguel/docker-cucumber-reporting:main
       env:
-        JAVA_HOME: /opt/java/openjdk/bin/java
-        OUTPUT_DIRECTORY: /cucumber-reporting/reports/cucumber
+        JAVA_HOME: "/opt/java/openjdk/bin/java"
+        ABC_HOME: "/opt/java/openjdk/bin/java"
+        OUTPUT_DIRECTORY: "/cucumber-reporting/reports/cucumber"
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.1
